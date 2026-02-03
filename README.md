@@ -46,6 +46,3 @@ $env:STREAMLIT_SERVER_FILE_WATCHER_TYPE='none'; .\.venv\Scripts\streamlit.exe ru
 - The app is optimized to load the detection model on-demand and the GPT-2 model on user request.
 - For production or sharing with others, host the model files externally (S3, Google Drive, or release assets) and update the app to download them at startup or on demand.
 - For high-quality recipe generation, consider using a stronger instruction-tuned LLM or a hosted inference API (OpenAI, Hugging Face Inference).
-
-## License
-Add a license file if you want to make this repo public with a license.
